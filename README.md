@@ -37,11 +37,22 @@ obs: Para executar estes comandos é necessario ter instalado previamente python
 
 ----
 <h2>INSERÇÃO DOS DADOS NO BANCO</h2>
-  Executar o arquivo "./inserir_dados.py" <br>
+  Executar o arquivo "./inserir_dados.py" e digitar a quantidade de pessoas que deseja inserir no banco.
+  
   Após a inserção dos dados, utilizar o arquivo "queries.cypher" para fazer a requisição filtrada dos dados.
 
-  Exemplo de arquivo executado:<br>
-  ***colocar
+  ----
+<h2>UTILIZAÇÃO DE QUERIES</h2>
+Para conseguir rodar as queries no ambiente do VScode, basta baixar a extenção "Neo4j for VS Code".
+
+Após a instalação um ícone da extenção aparecerá no canto esquerdo: ![image](https://github.com/user-attachments/assets/beff4e82-af7f-4eb0-8047-2a8cbe4c7940)
+
+* Conecte-se ao banco a partir do site Neo4j
+* Ao voltar no Vs Code, aparecerá como conectado
+
+--> Para rodar as queries desejadas, modifcar o arquivo .js quando precisar (deixe comentado as queries que não desejar aplicar no momento).
+
+--> Selecione a query a ser executada e aperte Ctrl+Alt+Espaço para rodar.
 
 ----
 <h2>DIAGRAMA RELACIONAL</h2>
