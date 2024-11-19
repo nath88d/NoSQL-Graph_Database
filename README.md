@@ -26,11 +26,12 @@ neo4j  <br>
 
 <h2>INSTALAÇÃO</h2>
 
-Utilizando um terminal de sua preferência, executar os seguintes comandos:<br>
-pip install names<br> pip install neo4j<br>
+Utilizando um terminal de sua preferência, executar os seguintes comandos:
 
-![image](https://github.com/nath88d/Banco-de-dados/assets/104024701/d109b5a5-acd5-4144-bc6a-b98ec286bffd)
-*print install neo4j
+Exemplo--> pip install names<br> 
+
+
+
 
 obs: Para executar estes comandos é necessario ter instalado previamente python3 na sua versão mais recente. 
 
