@@ -10,7 +10,7 @@
 
 <h2>CONEXÃO COM O NEO4J</h2>
 
-Para se conectar com o banco, basta alterar o arquivo "keys.py" de acordo com as suas informações. 
+Para se conectar com o banco, basta alterar o arquivo "keys.py" de acordo com as suas informações (URL, usuário e senha). 
 
 Obs: normalmente o usuário é dado por "neo4j" e a senha é mostrada ao se cadastrar no site neo4j. Por isso, é importante guardá-la. 
 
@@ -29,7 +29,7 @@ Utilizando um terminal de sua preferência, executar os seguintes comandos:
 
 Exemplo--> pip install names<br> 
 
-
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/14e71b97-7195-4bdd-aaef-c69812d223cd">
 
 --> Fazer a mesma coisa com a biblioteca neo4j: **pip install neo4j**.
 
