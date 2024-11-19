@@ -12,8 +12,7 @@
 
 Para se conectar com o banco, basta alterar o arquivo "keys.py" de acordo com as suas informações. 
 
-Obs: normalmente o usuário é dado por "neo4j" e a senha é mostrada ao se cadastrar no site. Por isso é importante guardá-la. 
-**verificar
+Obs: normalmente o usuário é dado por "neo4j" e a senha é mostrada ao se cadastrar no site neo4j. Por isso, é importante guardá-la. 
 
 ----
 <h2>BIBLIOTECAS UTILIZADAS EM PYTHON</h2>
@@ -32,13 +31,14 @@ Exemplo--> pip install names<br>
 
 
 
+--> Fazer a mesma coisa com a biblioteca neo4j: **pip install neo4j**.
 
 obs: Para executar estes comandos é necessario ter instalado previamente python3 na sua versão mais recente. 
 
 ----
 <h2>INSERÇÃO DOS DADOS NO BANCO</h2>
-  Executar o arquivo `./inserir_dados.py` <br>
-  Após a inserção dos dados, utilizar o arquivo `queries.cypher´ para fazer a requisição filtrada dos dados.
+  Executar o arquivo "./inserir_dados.py" <br>
+  Após a inserção dos dados, utilizar o arquivo "queries.cypher" para fazer a requisição filtrada dos dados.
 
   Exemplo de arquivo executado:<br>
   ***colocar
