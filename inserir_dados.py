@@ -191,20 +191,23 @@ for i in range(num_de_pessoas):
 
     
     semestre = 0
-    for m in range(0,len(disciplinas)):
+    disciplina_percorrida = []
+    for m in range(0,rand.randint(1,7)):
         semestre += 1
-        historico_aluno_query = """
-        CREATE (ha:HistoricoAluno {id_aluno: $id_aluno, id_disciplina: $id_disciplina, semestre: $semestre, ano: $ano, nota: $nota})
-        """
-        data = {
-            "id_aluno": i,
-            "id_disciplina": disciplinas[m]["id"],
-            "semestre": semestre,
-            "ano": data_inicial,
-            "nota": round(nota, 2)
-        }
-        inserir(historico_aluno_query, data)
-        data_inicial += 1
+        disc = rand.randint(0,(len(disciplinas)-1))
+        if disc not in disciplina_percorrida:
+            historico_aluno_query = """
+            CREATE (ha:HistoricoAluno {id_aluno: $id_aluno, id_disciplina: $id_disciplina, semestre: $semestre, ano: $ano, nota: $nota})
+            """
+            data = {
+                "id_aluno": i,
+                "id_disciplina": disciplinas[disc]["id"],
+                "semestre": semestre,
+                "ano": data_inicial,
+                "nota": round(nota, 2)
+            }
+            inserir(historico_aluno_query, data)
+            data_inicial += 1
 
 
         # Atualizar estado de formado
