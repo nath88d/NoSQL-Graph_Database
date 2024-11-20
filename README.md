@@ -3,6 +3,7 @@
 ----
 <h2>GRUPO</h2>
   -> Ana Beatriz de Souza: 24.122.018-5 <br>
+  -> Gabriel Destro: 24.122.059-9 <br>
   -> Luísa Graça Barbado:  24.122.058-1 <br>
   -> Nathan Dantas Mendes: 24.122.041-7 <br>
 
